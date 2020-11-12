@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    background: url('./image/bg2.jpg') center;
+    background-size: cover;
+}
+.keys{
+    display:flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 0.3s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+.playing {
+    transform: scale(1.2);
+    border-color: #ffc600;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem #ffc600;
+}
+kbd{
+    display:block;
+    font-size: 4rem;
+}
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
+.text {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color:#ffc600;
+}
